@@ -1,0 +1,27 @@
+<nav class="nav-header">
+  <div class="nav-wrapper">
+    {% if index %}
+    <a class="header_logo" href="" title="Home"
+      ><img
+      src=""
+      alt=""
+  /></a>
+    {% else %}
+    <a class="header_logo" href="/cover" title="Home"
+      ><img
+        src=""
+        alt=""
+    /></a>
+    {% endif %}
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+      ><i class="material-icons">menu</i></a
+    >
+    <ul class="right hide-on-med-and-down">
+      <li><a href="/cover">Inici</a></li>
+    </ul>
+  </div>
+</nav>
+
+<ul class="sidenav" id="mobile-demo">
+  <li><a href="/cover">Inici</a></li>
+</ul>
